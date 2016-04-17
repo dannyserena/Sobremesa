@@ -1,0 +1,45 @@
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+       <TextView
+            android:id="@+id/textt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Crepe de Frutas"
+            android:textSize="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgCrepe"
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:background="@drawable/crepe"
+
+            />
+        <Button
+            android:id="@+id/btnCrepe1"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:text="Modo de Preparo"
+            android:textSize="22dp"
+            android:background="#F50057"/>
+
+        <TextView
+            android:id="@+id/html_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pegue a massa de tapioca peneirada e leve na frigideira..."
+            android:layout_weight="4"
+            />
+
+
+    </TableRow>
+</TableLayout>
+
