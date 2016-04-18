@@ -21,7 +21,29 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/morango"/>
+        android:src="@drawable/morango"
+        android:id="@+id/imageView1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewIngredientes"
+        android:text="MASSA
+                    2 colheres ( sopa) de margarina
+                    2 colheres (sopa) de óleo
+                    1 ovo inteiro
+                    2 colheres rasas (sopa) de açúcar
+                    1 pitada de sal
+                    1 colher rasa (sopa) de fermento em pó
+                    Farinha de trigo até a massa desgrudar da mão.
+                    CREME
+                    1 lata de leite condensado
+                    1 lata de creme de leite
+                    3 gemas
+                    3 copos de leite
+                    1 colher (sopa) de maisena
+                    2 caixinhas de morangos
+                    1 gelatina de morango"/>
+
 
     <Button
         android:id="@+id/btnPreparo"
