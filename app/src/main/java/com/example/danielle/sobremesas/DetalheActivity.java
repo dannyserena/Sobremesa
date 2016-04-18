@@ -32,8 +32,15 @@ public class DetalheActivity extends AppCompatActivity {
             textViewIngredientes.setText("Acucar, farinha");
             textViewModoPreparo.setText("Misture os ingredientes");
 
-            getIntent().getExtras();
-            String sobremesa = intent.getStringExtra("sobremesa");
+            String valorSobremesa = getIntent().getExtras().getString("sobremesa");
+
+        if (valorSobremesa.equals("crepe")) {
+
+        } else if (valorSobremesa.equals("doces")) {
+
+        }
+
+
       //  }
 
 

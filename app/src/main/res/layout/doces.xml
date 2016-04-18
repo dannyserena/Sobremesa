@@ -28,13 +28,17 @@
         android:layout_width="350dp"
         android:layout_height="35dp"
         android:text="Modo de Preparo"
+        android:background="#F50057"
         android:textSize="22dp"/>
 
     <TextView
         android:id="@+id/html_text"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="Pegue a massa de tapioca peneirada e leve na frigideira..."
+        android:text="Em primeiro lugar faça a gelatina conforme o modo de preparo, e deixe-a na geladeira porque na hora do uso ela deve estar em ponto de clara de ovo pois se estiver líquida, a gelatina penetrará na massa, depois faça o creme, junte todos os ingredientes e mexa até levantar fervura e você ver que ele está bem cremoso, cuidado para não deixar empelotar ou grudar no fundo da panela, mexa bastante sem parar. Na hora do uso ele deve estar já frio ou levemente morno, agora faça a massa junte todos os ingredientes e quando ela estiver no ponto forre um pirex de médio a grande, os mais fundos são melhores fure a massa com um garfo e asse em fogo médio entre 10 a 15 minutos, quando dourar está boa, cuidado para não deixar queimar pois a massa fica fina.
+Para a Montagem:  Massa assada no pirex, deixe esfriar um pouco coloque o creme
+Os morangos cortados na transversal, coloque eles sobre todo o creme, agora coloque a gelatina já em ponto de clara, assim ela ficará na superfície
+Levar à geladeira por no mínimo 4 horas."
         android:layout_weight="4"
         />
 

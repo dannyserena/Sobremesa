@@ -18,7 +18,8 @@
         android:text="SoSobremesa"
         android:textSize="30dp"
         android:textAlignment="gravity"
-        android:textColor="#F50057"/>
+        android:textColor="#F50057"
+        android:layout_marginBottom="8dp"/>
 
     <Button
         android:id="@+id/btnDoces"

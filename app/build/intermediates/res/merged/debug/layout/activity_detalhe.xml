@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTitulo"
+            android:text="Faça você mesmo"
+            android:background="#E91E63"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:textSize="22dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:background="#FFEBEE"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredientes"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:background="#F48FB1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewIngredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Modo de Preparo"
+            android:textAlignment="center"
+            android:background="#F48FB1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewModoPreparo"/>
+
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Danielle/AndroidStudioProjects/Sobremesas/app/src/main/res/layout/activity_detalhe.xml -->

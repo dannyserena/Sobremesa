@@ -27,7 +27,7 @@
             android:id="@+id/btnCrepe1"
             android:layout_width="350dp"
             android:layout_height="35dp"
-            android:text="Modo de Preparo"
+            android:text="Modo de Preparo Teste"
             android:textSize="22dp"
             android:background="#F50057"/>
 

@@ -1,0 +1,48 @@
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+       <TextView
+            android:id="@+id/textt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Pastel de Forno"
+            android:textSize="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgCrepe"
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:background="@drawable/camarao"
+
+            />
+        <Button
+            android:id="@+id/btnCrepe1"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:text="Modo de Preparo"
+            android:textSize="22dp"
+            android:background="#F50057"/>
+
+        <TextView
+            android:id="@+id/html_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Bata no liquidificador todos os ingredientes da massa, menos a farinha, despeje em uma tigela, prove o sal e acrescente a farinha de trigo, fica com consistência de bolo. Prepare o recheio, leve ao fogo o azeite, alho, cebola e deixe até dourar
+Acrescente os tomates picados e deixe cozinhar um pouco, depois junte os camarões, coentro, sal e pimenta. Deixe cozinhar por uns 3 minutos, acrescente o amido de milho diluído no leite, mexa até engrossar, desligue e deixe esfriar.
+Unte uma assadeira de 35x22 cm, alta, pois cresce bastante, coloque metade da massa com auxílio de uma colher, espalhe o recheio e por cima o restante da massa
+Se quiser pode pincelar gema, deixe descansar por 1/2 hora , asse em forno médio até dourar e sirva.."
+            android:layout_weight="4"
+            />
+
+
+    </TableRow>
+</TableLayout>
+

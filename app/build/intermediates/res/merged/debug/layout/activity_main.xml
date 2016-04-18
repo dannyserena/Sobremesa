@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNome"
+        android:text="SoSobremesa"
+        android:textSize="30dp"
+        android:textAlignment="gravity"
+        android:textColor="#F50057"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnDoces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Doces"
+        android:background="#F50057"/>
+
+    <Button
+        android:id="@+id/btnSalgados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Salgados"
+        android:background="#F50057" />
+
+    <Button
+        android:id="@+id/btnSorvetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Sorvetes"
+        android:background="#F50057" />
+
+    <Button
+        android:id="@+id/btnGelada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Tortas Geladas"
+        android:background="#F50057" />
+
+    <Button
+        android:id="@+id/btnCrepe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crepe"
+        android:background="#F50057" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Danielle/AndroidStudioProjects/Sobremesas/app/src/main/res/layout/activity_main.xml -->
