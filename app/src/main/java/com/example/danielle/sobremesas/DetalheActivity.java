@@ -29,6 +29,7 @@ public class DetalheActivity extends AppCompatActivity {
         //pegando dinamicamente a descrição e imagem da receita
       //  if(imageView == id){
             imageView.setImageResource(R.drawable.morango);
+           // imageView.setImageResource(R.drawable.id.imageView);
             textViewIngredientes.setText("Acucar, farinha");
             textViewModoPreparo.setText("Misture os ingredientes");
 
